@@ -1,0 +1,21 @@
+{
+  "name": "proyecto-node-crude",
+  "version": "0.0.1",
+  "description": "Haciendo un CRUD con NodeJS y MongoDB",
+  "license": "ISC",
+  "author": "Alfredo J Albornoz",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.11.0"
+  }
+}
